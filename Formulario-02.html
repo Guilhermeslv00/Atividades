@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formualrio</title>
+    <style>
+        *{
+            padding: 0px;
+            margin: 0px;
+            font-family: 'Times New Roman', Times, serif;
+        }
+ 
+        body {
+            background-color: gainsboro;
+            margin-top: 30px;
+        }
+ 
+        div#principal {
+   
+            background-color: white;
+            width: 600px;
+            height: 650px;
+            margin: auto;
+            border-radius: 10px;
+            box-shadow: 3px 3px 20px 3px rgb(157, 156, 156);
+     
+ 
+        }
+ 
+        #forms{
+            text-align: center;
+ 
+        }
+ 
+        h1{
+            padding: 40px;
+            font-size: 40px;
+            margin-bottom: -10px;
+            
+        }
+        input {
+            padding: 10px;
+            width: 500px;
+     
+ 
+           
+        }
+ 
+        p{
+            font-size: 20px;
+            margin-left: -460px;
+            margin-top: 30px;
+            font-weight: bolder;
+           
+        }
+       
+        #botao {
+            width: 524px;
+            margin-top: 30px;
+            padding: 15px;
+            background-color: green;
+            color: white;
+            border: none;
+            font-size: 20px;
+            border-radius: 5px;
+        }
+ 
+        #botao:hover {
+         transition: 0.5s;
+            background-color: rgb(9, 207, 9);
+        }
+ 
+        img{
+            padding: 10px;
+            font-size: 20px;
+            margin-bottom: -10px;
+            width: 200px;
+}
+ 
+#leagal{
+ margin-left: 38px;
+ margin-top: 10px;
+   width: 20px;
+}
+ 
+    </style>
+</head>
+<body>
+    <script>
+        b = document.getElementById('botao')
+        function acaob() {
+            alert('Ainda não é hora de programar')
+        }
+       
+    </script>
+    <div id="principal">
+        <div id="forms">
+     
+        <h1>Formulario de Login</h1>
+
+        <img src="login.png" alt="">
+
+    
+        <p>Usuario: </p><input type="email" id="" placeholder="Digite seu email"><br>
+        <p>Senha: </p><input type="password" id="" placeholder="Digite sua senha"><br>
+        <button id="botao" onclick="acaob()">Login</button>
+
+    </div>
+
+    <input type="checkbox" id="leagal">Salvar dados
+   
+</body>
+</html>

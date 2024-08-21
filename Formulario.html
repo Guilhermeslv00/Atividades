@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formualrio</title>
+    <style>
+        *{
+            padding: 0px;
+            margin: 0px;
+            font-family: 'Times New Roman', Times, serif;
+        }
+ 
+        body {
+            background-color: gainsboro;
+            margin-top: 30px;
+        }
+ 
+        div#principal {
+   
+            background-color: white;
+            width: 600px;
+            height: 600px;
+            margin: auto;
+            border-radius: 10px;
+            box-shadow: 3px 3px 20px 3px rgb(157, 156, 156);
+     
+ 
+        }
+ 
+        #forms{
+            text-align: center;
+ 
+        }
+ 
+        h1{
+            padding: 70px;
+            font-size: 60px;
+            margin-bottom: -50px;
+ 
+        }
+        input {
+            padding: 10px;
+            width: 500px;
+     
+ 
+           
+        }
+ 
+        p{
+            font-size: 20px;
+            margin-left: -460px;
+            margin-top: 30px;
+            font-weight: bolder;
+           
+        }
+       
+        #botao {
+            width: 524px;
+            margin-top: 30px;
+            padding: 15px;
+            background-color: green;
+            color: white;
+            border: none;
+            font-size: 20px;
+            border-radius: 5px;
+        }
+ 
+        #botao:hover {
+         transition: 0.5s;
+            background-color: rgb(9, 207, 9);
+        }
+ 
+ 
+ 
+    </style>
+</head>
+<body>
+    <script>
+        b = document.getElementById('botao')
+        function acaob() {
+            alert('Ainda não é hora de programar')
+        }
+       
+    </script>
+    <div id="principal">
+        <div id="forms">
+     
+        <h1>Cadastro</h1>
+        <p>Nome:</p><input type="text" id="" placeholder="Digite seu nome"><br>
+        <p>E-mail: </p><input type="email" id="" placeholder="Digite seu email"><br>
+        <p>Senha: </p><input type="password" id="" placeholder="Digite sua senha"><br>
+        <button id="botao" onclick="acaob()">Cadastrar</button>
+    </div>
+ 
+       
+    </div>
+   
+</body>
+</html>
